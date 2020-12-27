@@ -115,9 +115,12 @@
 
     } */
     .searchbar > img {
-            width: 1320px;
-            height: 140px;
-            margin-top: 8px;  
+            width: 100%
+    }
+
+    .searchbar{
+        max-width: 1320px;
+        margin: auto;
     }
     .heading {
            color: rgb(182, 21, 21);
@@ -134,11 +137,16 @@
            justify-content: center;
            margin: auto;
     }
+    .container2 {
+            max-width: 1350px;
+            margin: auto;
+
+    }
 
     .image1, .image2, .container2_image1{
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
 
     }
 
@@ -157,6 +165,7 @@
             margin-right: 30px;
             margin-left: 30px;
             margin-bottom: 8px;
+            
             
     }
     .image2 > img {
